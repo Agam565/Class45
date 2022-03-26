@@ -1,4 +1,82 @@
-html, body {
-  margin: 0;
-  padding: 0;
+ 
+  h1{
+    color:red;
+    text-align:center;
+    font-family:"pacifico";
+    font-size:45px
+  }
+  h2{
+    color:blue;
+  }
+ #para1{
+   color:red;
+   font-size:40px;
+   text-align:center;
+ }
+ #para2{
+  color:blue;
+  font-size:40px;
+  text-align:center;
+}
+#para3{
+  font-size:40px;
+  text-align:center;
+}
+#para4{
+  color:darkgreen;
+  font-size:25px;
+  text-align:center;
+}
+#para5{
+  color:darkgoldenrod;
+  font-size:25px;
+  text-align:center;
+}
+#para6{
+  color:darkorchid;
+  font-size:40px;
+  text-align:center;
+}
+
+#para7{
+  color:black;
+  font-size:40px;
+  text-align:center;
+}
+
+ div{
+  border: 3px outset blue;
+  background-color:white;
+  font-family:"Georgia";
+}
+mark1{
+background-color:black;
+}
+mark2{
+  background-color:burlywood;
+}
+mark3{
+  background-color:aqua;
+}
+mark4{
+  background-color:chocolate;
+}
+
+
+.header{
+ background-color: yellow; 
+ display:flex;
+ justify-content:space-between;
+}
+.menu{
+  background-color:linen;
+}
+.grid{
+display:flex;
+flex-wrap:wrap;
+justify-content:space-evenly;
+}
+.footer{
+  display:flex;
+  justify-content:flex-end;
 }
